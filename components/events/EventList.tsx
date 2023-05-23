@@ -1,7 +1,8 @@
+import { SocialEvent } from "@/types/SocialEvent";
 import EventItem from "./EventItem";
 
 interface Props {
-    events: any[];
+    events: SocialEvent[];
 }
 
 export default function EventList({ events }: Props) {

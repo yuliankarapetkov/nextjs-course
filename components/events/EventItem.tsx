@@ -1,7 +1,8 @@
+import { SocialEvent } from "@/types/SocialEvent";
 import Link from "next/link";
 
 interface Props {
-    event: any;
+    event: SocialEvent;
 }
 
 export default function EventItem({ event }: Props) {
