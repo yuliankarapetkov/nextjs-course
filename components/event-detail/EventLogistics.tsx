@@ -1,6 +1,6 @@
 import AddressIcon from '../icons/AddressIcon';
 import DateIcon from '../icons/DateIcon';
-import LogisticsItem from './logistics-item';
+import LogisticsItem from './LogisticsItem';
 import classes from './EventLogistics.module.css';
 
 interface Props {
